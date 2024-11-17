@@ -1,6 +1,15 @@
-type,username,password,role,feedback_id,agent,feedback_text,status,report_id,date,feedback_applied,feedback_entry_date,integration_date
-user,agent1,pass789,Agent,,,,,,,,,
-user,coach1,pass456,Coach,,,,,,,,,
-feedback,,,,feedback_01,agent1,Great job on greeting customers!,Not Integrated,,,,2024-11-08,
-feedback,,,,feedback_02,agent1,Needs improvement in closing conversations.,Integrated,,,Closing conversations improved.,2024-11-08,2024-11-10
-report,,,,,agent1,,,report_01,2024-11-12,Summary of feedback applied,,
+type,username,password,role,feedback_id,agent,feedback_text,status,report_id,date,feedback_applied,updated_at
+user,agent1,pass789,Agent,,,,,,,,
+user,coach1,pass456,Coach,,,,,,,,
+user,agent4,pass123,Agent,,,,,,,,
+user,coach2,pass654,Coach,,,,,,,,
+user,mo1,mo123,Coach,,,,,,,,
+user,agent6,pass789,Agent,,,,,,,,
+feedback,,,,feedback_2,agent4,dummy_feedback_01,Integrated,,,,2024-11-16 18:59:05
+feedback,,,,feedback_3,agent1,feedback_1857,Integrated,,,,2024-11-16 18:58:44
+feedback,,,,feedback_4,agent4,feedback_1830,Not Integrated,,,,2024-11-16 18:57:43
+feedback,,,,feedback_5,agent1,feedback_1840,Not Integrated,,,,2024-11-16 18:58:08
+feedback,,,,feedback_5,agent1,feedback_1905,Not Integrated,,,,2024-11-16 19:05:09
+feedback,,,,feedback_6,agent6,feedback_1914,Not Integrated,,,,2024-11-16 19:14:10
+feedback,,,,feedback_7,agent6,feedback_1930,Integrated,,,,2024-11-14 14:14:11
+feedback,,,,feedback_8,agent6,feedback_1415,Not Integrated,,,,2024-11-14 13:14:12
